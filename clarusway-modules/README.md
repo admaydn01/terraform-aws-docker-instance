@@ -12,6 +12,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
+
 module "docker_instance" {
     source = "admaydn01/docker-instance/aws"
     key_name = "clarusway"
